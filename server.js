@@ -65,7 +65,7 @@ const id="642ad5e77021aba5291f3590";
   if(!exist){
       return res.status(400).send('User not found');
   }
- //console.log(exist)
+ console.log(exist)
   res.json(exist);
 
 });
